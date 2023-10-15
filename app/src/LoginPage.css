@@ -1,0 +1,84 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side {
+    flex: 1;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Optional background color for the left side */
+  }
+  
+  .image-container {
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+    background-size: cover;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+  .login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side {
+    flex: 1;
+    /* Add your full image styles here */
+  }
+  
+  .right-side {
+    bottom: 40px;
+    padding: 40px;
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .right-side h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .forgot-password {
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .sign-in-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sign-in-button:hover {
+    background-color: darkblue;
+  }
+  
+  .alternative-signin p {
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
